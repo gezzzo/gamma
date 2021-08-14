@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <div class="">
+        <nav class="navs">
+            <div class="nav_center">
+                <div class="nav_header d-flex justify-content-between align-items-center">
+                    <img src="images/logo.png" width="100" alt="logo" class="nav_logo">
+                    <button type="button" class="nav_toggle" id="nav_toggle">
+                       <i class="fa fa-bars"></i>
+                    </button>
+                </div>
+                <div class="nav_links">
+                    <a href="index.html" class="nav_link scroll_link">home</a>
+                    <a href="courses.html" class="nav_link scroll_link">courses</a>
+                    <a href="about.html" class="nav_link scroll_link">about us</a>
+                    <a href="contact.html" class="nav_link scroll_link">contact us</a>
+
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">en
+                        <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">en</a></li>
+                            <li><a href="#">Ar</a></li>
+                            <li><a href="#">ru</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+        <section class="content container text-center mt-3" id="home">
+            <iframe class="w-100 video" height="350" src="https://www.youtube.com/embed/2AJCrVHwb94" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="content-text" id="about">
+                <p class="lead mt-4">Welcome to the <br> online school "About Russian in Russian!</p>
+                <p class="lead mt-4">We help students from different countries to learn Russian as a foreign language and get acquainted with Russian culture.</p>
+                <hr class="my-5">
+            </div>
+
+        </section>
+        <!-- courses -->
+        <section class="container mt-5" id="courses">
+            <div class="title_wraber text-center mb-5">
+                <h2 class="title">our <span class="subtitle">courses</span></h2>
+            </div>
+            <div class="courses_center">
+                <article class="courses_card">
+                    <a href="#">
+                        <div class="courses_img_container">
+                            <img src="images/c1.jpeg" alt="...." class="courses_img" />
+                            <p class="courses_date">Abril 24th, 2020</p>
+                        </div>
+                        <div class="courses_footer">
+                            <h4 class="courses_title mb-3">individual online lessons</h4>
+                            <div class="courses_info">
+                                <p class="courses_countrey">
+                                    <span><i class="fa fa-book"></i></span> individual online lessons
+                                </p>
+                                <div class="courses_datails">
+                                    <p>9 days</p>
+                                    <p>from $4100</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="courses_card">
+                    <a href="">
+                        <div class="courses_img_container">
+                            <img src="images/c1.jpeg" alt="...." class="courses_img" />
+                            <p class="courses_date">Abril 24th, 2020</p>
+                        </div>
+                        <div class="courses_footer">
+                            <h4 class="courses_title mb-3">online group lessons</h4>
+                            <div class="courses_info">
+                                <p class="courses_countrey">
+                                    <span><i class="fa fa-book"></i></span> online group lessons </p>
+                                <div class="courses_datails">
+                                    <p>9 days</p>
+                                    <p>from $4100</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="courses_card">
+                    <a href="">
+                        <div class="courses_img_container">
+                            <img src="images/c1.jpeg" alt="...." class="courses_img" />
+                            <p class="courses_date">Abril 24th, 2020</p>
+                        </div>
+                        <div class="courses_footer">
+                            <h4 class="courses_title mb-3">conversation club</h4>
+                            <div class="courses_info">
+                                <p class="courses_countrey">
+                                    <span><i class="fas fa-map"></i></span> speaking club
+                                </p>
+                                <div class="courses_datails">
+                                    <p>9 days</p>
+                                    <p>from $4100</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+            </div>
+        </section>
+        <!-- notes -->
+        <section class="notes">
+            <section class=" text-center w-75 mx-auto">
+                <p>Please note that we process applications from 9:00 to 20:00 (Moscow time). If you paid for a class or meeting of a conversation club, but did not receive our letter, please wait.</p>
+                <hr class="my-5">
+                <p>Please note that we process applications from 9:00 to 20:00 (Moscow time). If you paid for a class or meeting of a conversation club, but did not receive our letter, please wait.</p>
+            </section>
+        </section>
+        <!-- instructors -->
+        <section id="instructors" class="projects mt-5">
+            <h1 class="title"><span>our</span> instructors</h1>
+            <div class="slider">
+                <div class="slide active">
+                    <div class="container">
+                        <div class="caption">
+                            <img src="images/c1.jpeg">
+                            <div class="project-details">
+                                <h1>instructor name</h1>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia harum unde soluta vero quibusdam earum impedit excepturi dignissimos consequatur veniam ea, accusantium, nisi aliquid cum, quo similique aperiam at obcaecati!</p>
+                                <a href="https://youtu.be/qGPdaKa1sCw">video 'about me'</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide ">
+                    <div class="container">
+                        <div class="caption">
+                            <img src="images/c1.jpeg">
+                            <div class="project-details">
+                                <h1>instructor name</h1>
+                                <p>Lorem dddddddddddddddddipsum dolor sit amet consectetur adipisicing elit. Mollitia harum unde soluta vero quibusdam earum impedit excepturi dignissimos consequatur veniam ea, accusantium, nisi aliquid cum, quo similique
+                                    aperiam at obcaecati!</p>
+                                <a href="https://youtu.be/qGPdaKa1sCw">video 'about me'</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="controls">
+                <div class="prev">
+                </div>
+                <div class="next"></div>
+            </div>
+            <div class="indicator">
+            </div>
+
+        </section>
+        <hr class="mt-5">
+        <!-- footer -->
+        <footer class="footer py-3">
+            <div class="footer-details d-md-flex align-items-baseline justify-content-around">
+                <div class="footer_icons">
+                    <a href="" class="footer_icon" target="blank">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="" class="footer_icon" target="blank">
+                        <i class="fa fa-linkedin"></i>
+                    </a>
+                    <a href="" class="footer_icon" target="blank">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="" class="footer_icon" target="blank">
+                        <i class="fa fa-youtube"></i>
+                    </a>
+                </div>
+                <div class="footer-contact">
+                    <div class="footer-inputs d-sm-flex ">
+                        <input type="text" placeholder="name" class="form-control mb-3 col-sm-6" id="usr">
+                        <input type="email" placeholder="email" class="form-control mb-3 col-sm-6 ml-sm-1" id="usr">
+
+                    </div>
+                    <textarea placeholder="message" class="form-control mb-3" rows="5" id="comment"></textarea>
+                    <div class="btn-footer">
+                        <button type="submit" class="btn mb-4">Submit</button>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">
+                copyright &copy; GAMMA Academy. all rights reserved
+            </p>
+        </footer>
+    </div>
+    <script src="js/home.js"></script>
+</body>
+
+</html>
